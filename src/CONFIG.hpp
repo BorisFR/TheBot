@@ -5,6 +5,8 @@
   Global Configuration
 *************************************************************************** */
 
+#include "SECRET.hpp"
+
 // #define USE_WIFI
 #ifdef USE_WIFI
 // #define USE_NTP
@@ -28,9 +30,6 @@
 #define COPY_LINE2 "** St. Fardoux **"
 // WiFi
 #define PORTAL_NAME "I.o.T."
-// For Other The Air update firmware
-// #define OTA_USER "junia"
-// #define OTA_PASSWORD "thePassword!"
 // Network Time Protocol
 #define NTP_SERVER_EU "europe.pool.ntp.org"
 #define NTP_REFRESH 3 * 60 * 60 // 3 hours
